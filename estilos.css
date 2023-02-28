@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Tilt Neon', cursive;
+}
+
+html{
+    scroll-behavior: smooth;
+
+}
+
+.inicio{
+    background-color: rgb(18, 116, 83);
+    background-size: cover;
+    background-position: center center;
+    color: aliceblue;
+}
+
+.inicio .contenido-seccion{
+    max-width: 1000px;
+    margin: auto;
+    text-align: center;
+    padding: 0 10px;
+}
+
+.inicio .contenido-seccion header{
+    padding: 30px;
+}
+
+.inicio .contenido-seccion header nav{
+    position: fixed;
+    margin-left: 60px;
+    background-color: rgb(141, 108, 215);
+    padding: 15px;
+    border-radius: 10px;
+    text-align: left;
+    z-index: 99;
+    display: none;
+}
+
+.inicio .contenido-seccion header nav a{
+    display: block;
+    color: white;
+    text-decoration: none;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.inicio .contenido-seccion header .nav-bar{
+    position: fixed;
+    background-color: rgb(36, 81, 61);
+    font-size: 20px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    line-height: 50px;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.inicio .contenido-seccion header .nav-bar:hover{
+    box-shadow: 0 0 35px #fff;
+}
+
+.inicio .contenido-seccio .info{
+    padding-bottom: 130px;
+}
+
+.inicio .contenido-seccion .info h1{
+    font-size: 3rem;
+    letter-spacing: 5px;
+    text-decoration: underline;
+}
+
+.inicio .contenido-seccion .info h2{
+    font-weight: normal;
+    font-size: 20px;
+    margin-top: 10px;
+    letter-spacing: 2px;
+}
+
+.inicio .contenido-seccion .foto{
+    position: relative;
+}
+
+.inicio .contenido-seccion .foto img{
+    max-width: 200px;
+    border-radius: 20%;
+    border: 5px solid #fff;
+    position: absolute;
+    left: 100%;
+    top: -100px;
+    transform: translateX(-50%);
+}
+
+.titulo-seccion{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+/* seccion cv */
+
+.cv{
+    background-color: rgb(18, 74, 101);
+    padding: 50px 100px 0px;
+    text-align: center;
+}
+
+.cv .contenido-seccion{
+    max-width: 1000px;
+    margin: auto;
+    padding: 0 10px;
+}
+
+.cv .contenido-seccion h3{
+    text-transform: uppercase;
+    font-size: 20px;
+    text-decoration: underline;
+    margin: 15px auto;
+    text-align: left;
+    background-color: rgb(18, 74, 101);
+}  
+
+.cv .contenido-seccion ul{
+    text-align: center;
+    list-style-type: none;
+    background-color: rgb(18, 74, 101);
+}
+
+.cv .contenido-seccion fieldset{
+    border: 5px solid black;
+}
+
+/* seccion contacto */
+.contacto{
+    background-color: rgb(36, 81, 61);
+    padding: 140px 0 100px 0;
+    color:white;
+    text-align: center;
+}
+
+.contacto .contenido-seccion{
+    max-width: 1000px;
+    margin: auto;
+    padding: 0 10px;
+}
+
+.contacto .titulo-seccion h2{
+    text-decoration: underline;
+    margin: auto;
+    padding: 15px;
+}
+
+.contacto .contenido-seccion h3{
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.contacto .contenido-seccion .fila{
+    justify-content: space-around;
+}
+
+.contacto .contenido-seccion .fila .col{
+    margin-top: 50px;
+}
+
+.contacto .contenido-seccion .fila .col h2{
+    color: beige;
+}
